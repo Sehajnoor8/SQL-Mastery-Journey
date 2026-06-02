@@ -40,13 +40,22 @@ SELECT * FROM EMPLOYEES WHERE CITY = 'DELHI';
 select salary, emp_id from employees;
 
 # 7. Display unique departments.
-select distinct(department) from employees;
+select distinct department from employees;
 
 # 8. Display unique cities.
-select distinct(city) from employees;
+select distinct city from employees;
 
 # 9. Show employee names and departments.
 select emp_name, department from employees;
 
 # 10. Display all columns except joining date.
 select emp_id, emp_name, city, department, salary from employees;
+
+#	Additional Commands: 
+#	1. count: fetches the total number of rows including the null values
+#	2. count distinct: fetches unique non-null values i.e. it ignors the duplicates and nulls.
+
+select count(*) from employees;
+
+select count(distinct department) from employees;
+
