@@ -19,7 +19,6 @@ Rather than only studying theory, I am solving SQL problems level-by-level and d
 * GitHub
 
 ##  Topics Covered
-
 ### SQL Fundamentals
 * SELECT
 * WHERE
