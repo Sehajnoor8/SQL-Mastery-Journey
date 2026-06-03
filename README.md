@@ -1,5 +1,4 @@
 # SQL Mastery Journey 
-
 A structured SQL learning repository documenting my journey from SQL fundamentals to advanced database concepts.
 This repository contains hands-on SQL practice questions, solutions, and learning notes completed using MySQL.
 
@@ -51,7 +50,6 @@ Rather than only studying theory, I am solving SQL problems level-by-level and d
 * Stored Procedures
 * Triggers
 
-
 ##  Repository Structure
 SQL-Mastery-Journey
 - README.md
@@ -60,14 +58,15 @@ SQL-Mastery-Journey
     - Level-03-AND-OR-NOT
     - Level-04-ORDER-BY
     - Level-05-LIMIT
+    - Level-06-GROUP BY
     - 
     More Levels Coming Soon...
 
-Each level contains:
-* Level.sql
-* Notes.md
+**Each level contains:**
+- Level.sql
+- Notes.md
 
-##  Progress Tracker
+** ##  Progress Tracker**
 --------------------------------------------
 | Level | Topic               | Status      |
 | ----- | ------------------- | ------------|
@@ -75,16 +74,16 @@ Each level contains:
 | 02    | WHERE Clause        | Completed   |
 | 03    | AND / OR / NOT      | Completed   |
 | 04    | ORDER BY            | Completed   |
-| 05    | LIMIT               | In Progress |
-| 06    | LIKE                | Pending     |
-| 07    | IN & BETWEEN        | Pending     |
-| 08    | Aggregate Functions | Pending     |
+| 05    | LIMIT               | Completed   |
+| 06    | GROUP BY            | Completed   |
+| 07    | Aggregate Functions | Completed   |
+| 08    |                     | Pending     |
 | 09    | GROUP BY            | Pending     |
 | 10    | HAVING              | Pending     |
 ---------------------------------------------
-## 🎯 Learning Approach
 
-For each topic I:
+## Learning Approach
+For each topic, I:
 1. Study the concept
 2. Solve practice questions
 3. Document solutions
