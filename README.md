@@ -59,6 +59,8 @@ SQL-Mastery-Journey
     - Level-04-ORDER-BY
     - Level-05-LIMIT
     - Level-06-GROUP BY
+    - Level-07-LIKE
+    - Level-08-IN,BETWEEN
     - 
     More Levels Coming Soon...
 
@@ -76,9 +78,9 @@ SQL-Mastery-Journey
 | 04    | ORDER BY            | Completed   |
 | 05    | LIMIT               | Completed   |
 | 06    | GROUP BY            | Completed   |
-| 07    | Aggregate Functions | Completed   |
-| 08    |                     | Pending     |
-| 09    | GROUP BY            | Pending     |
+| 07    | LIKE                | Completed   |
+| 08    | IN, BETWEEN         | Completed   |
+| 09    |                     | Pending     |
 | 10    | HAVING              | Pending     |
 ---------------------------------------------
 
