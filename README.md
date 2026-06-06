@@ -61,6 +61,8 @@ SQL-Mastery-Journey
     - Level-06-GROUP BY
     - Level-07-LIKE
     - Level-08-IN,BETWEEN
+    - level-09-Aggregate Functions
+    - Level-10-Having
     - 
     More Levels Coming Soon...
 
@@ -80,8 +82,8 @@ SQL-Mastery-Journey
 | 06    | GROUP BY            | Completed   |
 | 07    | LIKE                | Completed   |
 | 08    | IN, BETWEEN         | Completed   |
-| 09    |                     | Pending     |
-| 10    | HAVING              | Pending     |
+| 09    | Aggregate functions | Completed   |
+| 10    | HAVING              | Completed   |
 ---------------------------------------------
 
 ## Learning Approach
