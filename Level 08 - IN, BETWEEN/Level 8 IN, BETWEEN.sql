@@ -1,85 +1,43 @@
-# Level 8 IN, BETWEEN
-USE PRACTICE; 
+USE linkedin_job_analytics;
+SELECT
+    company_name,
+    COUNT(job_id) AS total_openings
+FROM companies
+JOIN jobs
+ON companies.company_id = jobs.company_id
+GROUP BY company_name
+ORDER BY total_openings DESC;
 
-# QUESTIONS
-# 81. Find employees from Delhi or Mumbai using IN.
-SELECT 
-    *
-FROM
-    employees
-WHERE
-    city IN ('Delhi' , 'Mumbai');
+SELECT
+    company_name,
+    AVG(max_salary) AS avg_salary
+FROM companies
+JOIN jobs
+ON companies.company_id = jobs.company_id
+JOIN salaries
+ON jobs.job_id = salaries.job_id
+GROUP BY company_name
+ORDER BY avg_salary DESC;
 
-# 82. Find employees in IT or HR.
-SELECT 
-    *
-FROM
-    employees
-WHERE
-    department IN ('IT' , 'HR');
-    
-# 83. Find employees with salary between 45000 and 60000.
-SELECT 
-    *
-FROM
-    employees
-WHERE
-    SALARY BETWEEN 45000 AND 60000;
-    
-# 84. Find employees who joined between 2022 and 2024.
-SELECT 
-    *
-FROM
-    employees
-WHERE
-    joining_date 
-NOT BETWEEN 
-		'2022-01-01' AND '2024-12-31';
-    
-# 85. Find employees from Delhi, Mumbai, Pune.
-SELECT 
-    *
-FROM
-    employees
-WHERE
-    city IN ('Delhi' , 'Mumbai', 'Pune');
-    
-# 86. Find employees with salary not between 45000 and 60000.
-SELECT 
-	SALARY 
-FROM
-    EMPLOYEES
-WHERE
-    SALARY NOT BETWEEN 45000 AND 60000;
+SELECT
+    skill_name,
+    COUNT(job_id) AS demand_count
+FROM skills
+JOIN job_skills
+ON skills.skill_id = job_skills.skill_id
+GROUP BY skill_name
+ORDER BY demand_count DESC;
 
-# 87. Find employees not from Delhi or Mumbai.
-SELECT 
-    *
-FROM
-    employees
-WHERE
-    city NOT IN ('Delhi' , 'Mumbai');
+SELECT
+    remote_option,
+    COUNT(*) AS total_jobs
+FROM locations
+JOIN jobs
+ON locations.location_id = jobs.location_id
+GROUP BY remote_option;
 
-# 88. Find employees in Finance or Marketing.
-SELECT 
-    *
-FROM
-    employees
-WHERE
-    department IN ('FINANCE' , 'MARKETING');
-    
-# 89. Find salaries between 50000 and 70000.
-SELECT 
-	SALARY 
-FROM
-    EMPLOYEES
-WHERE
-    SALARY BETWEEN 50000 AND 70000;
-
-# 90. Find employees joined before 2023 using BETWEEN.
-SELECT 
-    *
-FROM
-    employees
-WHERE
-    joining_date < '2023-01-01';
+SELECT
+    experience_level,
+    COUNT(*) AS total_jobs
+FROM jobs
+GROUP BY experience_level;
