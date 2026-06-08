@@ -63,6 +63,8 @@ SQL-Mastery-Journey
     - Level-08-IN,BETWEEN
     - level-09-Aggregate Functions
     - Level-10-Having
+    - level-11-constraints
+    - Level-12 Joins
     - 
     More Levels Coming Soon...
 
@@ -84,6 +86,8 @@ SQL-Mastery-Journey
 | 08    | IN, BETWEEN         | Completed   |
 | 09    | Aggregate functions | Completed   |
 | 10    | HAVING              | Completed   |
+| 11    | Constraints         | Completed   |
+| 12    | Joins               | Completed   |
 ---------------------------------------------
 
 ## Learning Approach
