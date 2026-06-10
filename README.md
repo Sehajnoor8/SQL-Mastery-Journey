@@ -72,7 +72,7 @@ SQL-Mastery-Journey
 - Level.sql
 - Notes.md
 
-** ##  Progress Tracker**
+##  Progress Tracker
 --------------------------------------------
 | Level | Topic               | Status      |
 | ----- | ------------------- | ------------|
